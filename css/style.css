@@ -1,9 +1,9 @@
-
-header .navbar .nav-link, header .navbar .nav-link.active {
+header .navbar .nav-link,
+header .navbar .nav-link.active {
     color: #fff;
 }
 
-header .navbar-nav > .nav-item {
+header .navbar-nav>.nav-item {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 0.8rem;
@@ -28,6 +28,7 @@ header .navbar-nav > .nav-item {
     height: 100vh;
     overflow: hidden;
 }
+
 #hero .carousel-item img {
     object-fit: cover;
     height: 100%;
@@ -67,6 +68,7 @@ header .dropdown-menu {
 header .dropdown-item {
     color: #fff;
 }
+
 header .dropdown-item:hover {
     background-color: transparent;
     color: #ddd;
@@ -74,38 +76,39 @@ header .dropdown-item:hover {
 
 /* ************************************** section 2 *********************************/
 
-#sec1{
+#sec1 {
     background-image: url(../images/homepage-option17-banner-bg.jpg);
     background-repeat: no-repeat;
     background-size: 120%;
 
 }
 
-#sec1 .pra1{
+#sec1 .pra1 {
     width: 30%;
     position: relative;
     top: 80px;
     left: 828px;
-    
-} 
 
-#p2{
+}
+
+#p2 {
     color: red;
     font-size: 20px;
 }
 
-#di01{
+#di01 {
     position: relative;
-    top:80px;
+    top: 80px;
     left: 800px;
     padding: 0 23px;
 }
 
-#log1{
+#log1 {
     width: 250px;
 }
 
-#dd1{  /* حجم الايقونة */
+#dd1 {
+    /* حجم الايقونة */
     font-size: 70px;
     text-align: center;
     margin: 20px 50px;
@@ -113,7 +116,7 @@ header .dropdown-item:hover {
 
 /**************************************** section 3 **********************************************/
 
-#para2{
+#para2 {
     /* width: 100%; */
     text-align: center;
     position: relative;
@@ -125,35 +128,41 @@ header .dropdown-item:hover {
 
 }
 
-#sec2{
+#sec2 {
     position: relative;
     top: 150px;
     left: 20px;
-    margin: 50px 150px; 
-   align-items: center;
-   
-}
+    margin: 50px 150px;
+    align-items: center;
 
-#card{
+}
+.ggg{
+    position: relative;
+    left: -50px;
+}
+#card {
     margin: 0 20px;
     padding: 50px 10px;
     text-align: center;
 }
-#log2{
+
+#log2 {
     width: 850px;
     position: relative;
     left: 300px;
 }
-#beau{
+
+#beau {
     width: 750px;
     position: relative;
     left: 350px;
 }
-#sec2 .card .circle{
+
+#sec2 .card .circle {
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    font-size: 50px ;
+    font-size: 50px;
     padding-top: 20px;
     position: relative;
     left: 20px;
@@ -161,7 +170,7 @@ header .dropdown-item:hover {
 
 /* *********************************** section 4 **************************** */
 
-#sec4{
+#sec4 {
     position: relative;
     top: 200px;
     width: 100%;
@@ -171,44 +180,48 @@ header .dropdown-item:hover {
 
 }
 
-.img4{
+.img4 {
     height: 482px;
     width: 800px;
     border-radius: 0;
 
 }
 
-.txt4{
+.txt4 {
     width: 380px;
     height: 482px;
 }
-.t4{
-        margin: 40px 30px;
-        color: #fff;
+
+.t4 {
+    margin: 40px 30px;
+    color: #fff;
 }
-.lor1{
+
+.lor1 {
     position: relative;
 
     padding-top: 20px !important;
 }
-#sec4 .sec_hover:hover{
+
+#sec4 .sec_hover:hover {
     background-color: #fff !important;
     border: 1px solid black;
     color: black;
-    }
+}
 
 
 /* ************************************ section 5 *************************************** */
 
-.col{
-    flex: 1 25%; 
+.col {
+    flex: 1 25%;
     width: 25%;
     overflow: hidden;
     padding: 10px;
     position: relative;
 
 }
-#packages{
+
+#packages {
     position: relative;
     top: 100px;
     left: 0;
@@ -217,7 +230,7 @@ header .dropdown-item:hover {
     margin-top: 10rem;
 }
 
-a{
+a {
     text-decoration: none;
     padding: 8px;
     color: #666;
@@ -227,57 +240,64 @@ a{
 
 /* **************************************** section 5 ************************* */
 
-#sec5{
+#sec5 {
     position: relative;
     top: 200px;
     margin: 0;
 }
 
-#sec5 div h1 , #sec5 div ul{
+#sec5 div h1,
+#sec5 div ul {
     width: 500px;
     margin-left: 80px;
     position: relative;
     top: 20px;
 }
-#sec5 div ul{
+
+#sec5 div ul {
     font-size: smaller;
     width: 450px;
 }
 
-#sec5 img{
-    height:385;
-    width :684;
+#sec5 img {
+    height: 385;
+    width: 684;
     position: relative;
     top: 30px;
     /* left: 40px; */
 }
-#sec5 div a{
+
+#sec5 div a {
     margin-left: 100px;
 }
-#sec5 .bac-hov:hover{
-background-color: #fff !important;
-border: 1px solid black;
-color: black;
+
+.bac-hov:hover {
+    background-color: #fff !important;
+    border: 1px solid black;
+    color: black;
 }
+
 /* *************************** section 6 ******************************* */
 
-#sec6{
+#sec6 {
     position: relative;
     top: 150px;
     font-size: 16px;
     background-color: rgba(192, 192, 192, 0.2);
 }
 
-#sec6 img ,#sec6 #dsec6 {
+#sec6 img,
+#sec6 #dsec6 {
     width: 700px;
     height: 850px;
 }
 
-#dsec6{
+#dsec6 {
     margin: 0px 30px;
-     
+
 }
-#sec6h1{
+
+#sec6h1 {
     font-size: 45px;
     margin: 80px 0px;
     margin-bottom: 30px;
@@ -286,55 +306,99 @@ color: black;
 
 }
 
-.sec6txt{
+.sec6txt {
     margin-left: 30px;
     width: 500px;
     margin: 40px;
-    
+
 }
 
-#kkk{
+#kkk {
     background-image: url(../images/sec61.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
 
 /* ******************************** section 7 ********************************************** */
 
-#sec7{
+#sec7 {
     position: relative;
     top: 300px;
-}   
-
-#sec7 img{
-    /* margin: 0 40px; */
-    margin-top: 70px;
-    padding: 20px;
-    
 }
 
-#sec7-div-img{
-    padding: 0 75px;
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 250px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+    margin-left: 65px;
 }
 
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.3s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    /* transform: rotateX(180deg); */
+    transform: rotateX(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+    background-color: red;
+    color: white;
+    transform: rotateX(180deg);
+}
+.text-se7{
+    position: relative;
+    left: 80px;
+}
 
 /* ************************************** section 8 ******************************** */
 
-#sec8{
+#sec8 {
     height: 700px;
     margin-top: 320px;
     background-image: url(../images/sec81.jpg);
 }
 
-#sec8 div{
+#sec8 div {
     margin-top: 100px;
 }
-.lo_width{
+
+.lo_width {
     width: 600px;
     padding: 0%;
 }
-.mar_11{
+
+.mar_11 {
     position: relative;
     top: -80px;
     padding-top: -1500px;
@@ -346,3 +410,274 @@ color: black;
     padding: 1.3rem 8%;
 }
 
+#sec8 .bac-hov:hover {
+    background-color: #000 !important;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+/* ************************************** section 9 *******************1111************* */
+#sec9 {
+    height: 650px;
+    margin-top: 120px;
+
+
+}
+
+#sec9 img {
+    width: 450px;
+    margin-left: 180px;
+    height: 340px;
+}
+
+.sec9-txt {
+    width: 600px;
+    margin: 30px 110px;
+    font-size: 14px;
+}
+
+.txt9 {
+    width: 220px;
+}
+
+
+.gg1 {
+    width: 180px;
+    height: 35px;
+    font-size: 13px;
+}
+
+/* ************************************** section 10 ******************************** */
+#hr {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 150px;
+    width: 80%;
+    text-align: center;
+
+}
+
+#sec10 {
+    top: 40px;
+
+    position: relative;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+#di-pp {
+    padding-left: 80px;
+}
+
+.lor_wid {
+    width: 220px;
+    font-size: 50px;
+}
+
+.dd_pad {
+    padding-left: -40px;
+}
+
+.di-pp2 {
+    margin: 0 150px;
+}
+
+/* ************************************** section 11 ******************************** */
+.back {
+    background-color: rgba(242, 241, 241, 0.997);
+    margin-top: 100px;
+    height: 679px;
+    margin-top: 180px;
+
+}
+
+#vvv {
+    background-image: url(../images/parallax-bg11.jpg);
+    padding-right: 90px;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    width: 750px;
+    bottom: 0px;
+
+}
+
+/* .img_sec11{
+    width: 900px;
+    right: 0;
+    height: 700px;
+} */
+.d-txt {
+    width: 50%;
+    height: 700px;
+    background-size: cover;
+    padding: 120px 110px 120px 120px;
+}
+
+.p-h1 {
+    width: 380px;
+    font-size: 45px;
+}
+
+.p-h12 {
+    width: 360px;
+}
+
+.btn-hov {
+    margin-top: 30px;
+    width: 200px;
+
+}
+
+.btn-hov:hover {
+    background-color: #fff !important;
+    border: 2px solid #000;
+    color: #000;
+}
+
+/* ************************************** section 12 ******************************** */
+
+.sec12 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    margin-left: 110px;
+
+}
+
+.di-sec12 {
+    margin-left: 20px;
+}
+
+.sec12_txt {
+    position: relative;
+    margin-left: 20px;
+    width: 130px;
+}
+
+.sec12_p {
+    font-size: 12px;
+}
+
+/* }
+.sec12_txt11{
+margin-left: 20px;
+width: 130px;
+} */
+
+
+/* ************************************** section 13 ******************************** */
+#sec13 {
+    background-image: url(../images/sec131.jpg);
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+
+}
+
+#sec13 .ico {
+    font-size: 90px;
+    color: #fff;
+    position: relative;
+    left: 350px;
+}
+
+#sec13 .txt13 {
+    position: relative;
+    width: 800px;
+    top: 150px;
+    margin: 0 350px;
+}
+
+#sec13 .txt13 p {
+    font-size: 13px;
+    width: 630px;
+    position: relative;
+    left: 72px;
+}
+
+.bt_sec13 {
+    position: relative;
+    left: 350px;
+}
+
+/* ************************************** section 14 ******************************** */
+#sec14 {
+    width: 900px;
+    position: relative;
+    left: 300px;
+
+}
+#sec14 .carousel-item{
+
+}
+
+#sec14 img {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    width: 200px;
+    height: 100px;
+
+}
+
+/* ************************************** section 15 ******************************** */
+
+#sec15{
+    height: 800px;
+    
+}
+.sec15-ph{
+    text-align: center;
+    
+}
+.sec15-ph hr { 
+    width: 100px;
+   /* font-size: x-large; 
+    font-weight: bold !important; */
+    position: relative;
+    left: 700px;
+    color: red;
+   margin-bottom:100px;
+   /* border:1px solid rgb(255, 0, 0); */
+   background-color: #ff214f;
+}
+#sec15-div{
+    width: 380px;
+    height: 400px;
+    position: relative;
+    left: 150px;
+    margin-left: 20px;
+
+}
+#sec15-div img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 50px;
+    right: 40px;
+    bottom: 15px;
+    position: relative;
+}
+#sec15-div p,h5{
+    width: 300px;
+    position: relative;
+    left: 30px;
+}
+#sec15-div p{
+    
+    position: relative;
+    font-size: small;
+}
+.sec15-h5{
+font-size: small;
+}
+.sec15-p{
+    font-size: 12px;
+}
+.div-15{
+    position: relative;
+    top: 140px;
+}
+/* #div-hidden{
+    /* overflow: hidden; 
+    
+} */
